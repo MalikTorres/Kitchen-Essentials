@@ -1,0 +1,17 @@
+h1 {
+    display:block; 
+    text-align:left; 
+    background-color: 
+   
+} 
+
+ul {
+    list-style: none; 
+}  
+
+.container {
+    display:flex;
+    align-items: stretch;
+}
+
+
