@@ -7,6 +7,10 @@ body {
     color:black; 
 }
 
+#site-name{
+    text-shadow: 2px 2px yellow;
+}
+
 h1 {
     border: solid; 
     border-bottom-width: 50px;
