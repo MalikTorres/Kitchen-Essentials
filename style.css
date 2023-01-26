@@ -2,6 +2,11 @@ body {
     background-color:beige
 }
 
+.my-links{
+    text-shadow: 1px 1px #ffc400;
+    color:black; 
+}
+
 h1 {
     border: solid; 
     border-bottom-width: 50px;
