@@ -1,17 +1,21 @@
-h1 {
+header {
     display:block; 
     text-align:left; 
-    background-color: 
+   
    
 } 
+
+h1 {
+    border: solid; 
+    border-bottom-color: grey;
+    border-top-color: white;
+    border-left-color: white; 
+    border-right-color: white;
+}
 
 ul {
     list-style: none; 
 }  
 
-.container {
-    display:flex;
-    align-items: stretch;
-}
 
 
