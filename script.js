@@ -1,13 +1,8 @@
-
 //FIRST DYNAMIC COMPONENT
-
-
-// SECOND DYNAMIC COMPONENT
-
-
 let nameConfirm = prompt("What is your name?") 
 
-let greeting = prompt("Hi" + " " + nameConfirm + "!" + "please click OK below");
+// SECOND DYNAMIC COMPONENT
+let greeting = alert("Hi" + " " + nameConfirm + "!" + " " + "please click OK below");
 
 // THIRD DYNAMIC COMPONENT
 let cookingFrequency = prompt("How how many times per week do you cook?");
@@ -36,8 +31,6 @@ if(cookingFrequency ===  veryFrequent > 6 && veryFrequent <= 10) {
 } 
 
 
-
-let confirimation = comfirm('Are you having a good day today?')
 
 
 
