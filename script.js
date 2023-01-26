@@ -2,7 +2,7 @@
 let nameConfirm = prompt("What is your name?") 
 
 // SECOND DYNAMIC COMPONENT
-let greeting = alert("Hi" + " " + nameConfirm + "!" + " " + "please click OK below");
+let greeting = alert("Hi" + " " + nameConfirm + "!" + " " + "Please click OK below");
 
 // THIRD DYNAMIC COMPONENT
 let cookingFrequency = prompt("How how many times per week do you cook?");
