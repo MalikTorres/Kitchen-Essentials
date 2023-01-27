@@ -1,9 +1,16 @@
 function howOftenDoYouCook() {
 //FIRST DYNAMIC COMPONENT
+
+let age = '';
+
+while(age < 21) {
+    age = prompt('You must be 21 or older to enter site'); 
+
+}
+// SECOND DYNAMIC COMPONENT
+// let nameConfirm = prompt("What is your name?") 
 let nameConfirm = prompt("What is your name?") 
 
-
-// SECOND DYNAMIC COMPONENT
 if(!nameConfirm) {
     
     howOftenDoYouCook(prompt('Error! Please enter your name to continue'));
@@ -12,8 +19,6 @@ if(!nameConfirm) {
 
       alert("Hi" + " " + nameConfirm + "!" + " " + "Please click OK to continue");
 }  
-
-
 // THIRD DYNAMIC COMPONENT
 let cookingFrequency = prompt("How how many times per week do you cook?");
 
@@ -46,26 +51,32 @@ howOftenDoYouCook();
 
 function pictureOfSousVide() {
     
-    let answer = '';
+    let picture = '';
     let likelyHoodToBuyProduct =  prompt('How likely are you to buy this product, 1-10');
-    
+   
     for(let i=0; i < likelyHoodToBuyProduct; i++) {
 
-        answer += "<img class= 'sous-vide' src= 'SousVide.jpg'/>"
+        picture += "<img class= 'sous-vide' src= 'SousVide.jpg'/>"
+
+        // Try a nested loop 
+        if(likelyHoodToBuyProduct !== '' && likelyHoodToBuyProduct >= 10) {
+            alert('Wow you really like cooking');
+        }
     }
 
-      return document.write(answer);
+      return document.write(picture);
 }
+/*
+function pleaseCompleteSurvey(){
 
-// function pleaseCompleteSurvey(){
-
-//     let rating = 10;
-//     let feedBack = prompt('Please rate my website 1-10')
+    let rating = 10;
+    let feedBack = prompt('Please rate my website 1-10')
     
-//     while(rating <= 10) {
-//         feedBack++
-//     } 
+    while(rating <= 10) {
+        feedBack++
+    } 
 
-//     return rating;
+    return rating;
 
-// }
+} 
+  */ 
