@@ -51,7 +51,7 @@ function pictureOfSousVide() {
     
     for(let i=0; i < likelyHoodToBuyProduct; i++) {
 
-        answer += "<img class= 'sous-vide' src= 'SousVideMachine.jpg'/>"
+        answer += "<img class= 'sous-vide' src= 'Sousvidephoto.jpg'/>"
     }
 
       return document.write(answer);
