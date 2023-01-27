@@ -5,11 +5,11 @@ let nameConfirm = prompt("What is your name?")
 // SECOND DYNAMIC COMPONENT
 if(!nameConfirm) {
     
-    howOftenDoYouCook()
-
+    howOftenDoYouCook(prompt('Error! Please enter your name to continue'));
+   
 } else { 
 
-    alert("Hi" + " " + nameConfirm + "!" + " " + "Please click OK to continue");
+      alert("Hi" + " " + nameConfirm + "!" + " " + "Please click OK to continue");
 } 
 
 // THIRD DYNAMIC COMPONENT
@@ -21,7 +21,7 @@ let semiFrequent = 6;
 
 let leastFrequent = 4; 
 
-     if (cookingFrequency <= veryFrequent && cookingFrequency > semiFrequent) { 
+    if (cookingFrequency <= veryFrequent && cookingFrequency > semiFrequent)       { 
     
         document.write("A sous vide would be a valuable project to take your cooking to the next level");
 
