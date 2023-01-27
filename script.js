@@ -4,8 +4,11 @@ function howOftenDoYouCook() {
 let age = '';
 
 while(age < 21) {
-    age = prompt('You must be 21 or older to enter site'); 
+    age = prompt('You must be 21 or older to enter, please enter numbers only'); 
 
+        if(age <= 21) {
+            prompt('Please try again!')
+        }
 }
 // SECOND DYNAMIC COMPONENT
 // let nameConfirm = prompt("What is your name?") 
